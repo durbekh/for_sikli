@@ -42,6 +42,66 @@
 #         ozgaruvchi1 = h
 # print(f"Eng katta son: {ozgaruvchi1}")
 # # 9
+# sonlar = [34, 12, 89, 5, 67, 23, 91, 45]
+# yigindi2 = 0
+# yigindi3 = sonlar[0]
+# yigindi4 = sonlar[0]
+# for r in sonlar:
+#     for h in sonlar:
+#         if h > yigindi3:
+#             yigindi3 = h
+#     for g in sonlar:
+#         if g < yigindi4:
+#             yigindi4 = g
+#     for f in sonlar:
+#         yigindi2 += f
+# yigindi5 = yigindi2 / len(sonlar)
+# print("eng kattasi", yigindi3)
+# print("eng kichigi", yigindi4)
+# print("o'rta qiymat" , yigindi5)
+# # 10
+# matn = "Python"
+# print(matn)
+# for j in matn[::-1]:
+#     print(j , end="")
+# # 11
+for index in range(1,10+1):
+    for idex2 in range(1,10+1):
+
+# # 12
+# n = 7
+# for i in range(1, n + 1):
+#     for j in range(n - i):
+#         print(" ", end="")
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()
+#
+# # 13
+# a = 0
+# b = 1
+# for t in range(0 , 10):
+#     print(a , end=" ")
+#     a , b = b , a + b
+# # 14
+gap = "Python dasturlash tili juda qiziqarli va kuchli"
+for kel in gap:
+    print(kel , end=" ")
+# # 15
+# n = 5
+# for i in range(1, n + 1):
+#     for lk in range(n - i):
+#         print(" ", end="")
+#     for k in range(2 * i - 1):
+#         print("*", end="")
+#     print()
+# for kl in range(n-1, 0, -1):
+#     for j in range(n - kl):
+#         print(" ", end="")
+#     for ye in range(2 * kl - 1):
+#         print("*", end="")
+#     print()
+
 
 
 
