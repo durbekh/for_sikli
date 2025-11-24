@@ -90,15 +90,6 @@
 #     print(a , end=" ")
 #     a , b = b , a + b
 # # 14
-# for t_y in range(2 , 100):
-#     tub = 1
-#     for y_t in range(2 , t_y -1):
-#         if t_y % y_t == 0:
-#             tub = 0
-#             break
-#     if tub:
-#         print(t_y)
-# # 15
 # soat = 0
 # for v in range(0,24):
 #     for h in range(0,60):
@@ -106,6 +97,7 @@
 #             print(f"{v:02d}:{h:02d}:{w:02d}")
 #             soat+=1
 # print(f"Jami : {soat} ta vaqt")
+
 
 
 
