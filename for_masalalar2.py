@@ -65,9 +65,18 @@
 # for j in matn[::-1]:
 #     print(j , end="")
 # # 11
+l = 1
+print("==============================")
+print("TO'LIQ KO'PAYTIRISH JADVALI (1-10)")
+print("==============================")
+print(l , "ning jadvali")
+print("------------------------")
 for index in range(1,10+1):
     for index2 in range(1,10+1):
-        print(index , end="*")
+        print(f"{index} * {index2} = {index * index2}")
+    l += 1
+    print(f"{l} ning jadvali")
+    print("---------------------")
     
 # # 12
 # n = 7
@@ -102,6 +111,7 @@ for kel in gap:
 #     for ye in range(2 * kl - 1):
 #         print("*", end="")
 #     print()
+
 
 
 
