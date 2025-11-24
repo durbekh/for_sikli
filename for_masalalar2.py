@@ -86,7 +86,7 @@ for index in range(1,10+1):
 # # 14
 gap = "Python dasturlash tili juda qiziqarli va kuchli"
 for kel in gap:
-    print(kel , end=" ")
+    print(kel , end="")
 # # 15
 # n = 5
 # for i in range(1, n + 1):
@@ -101,6 +101,7 @@ for kel in gap:
 #     for ye in range(2 * kl - 1):
 #         print("*", end="")
 #     print()
+
 
 
 
