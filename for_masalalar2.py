@@ -66,8 +66,8 @@
 #     print(j , end="")
 # # 11
 for index in range(1,10+1):
-    for idex2 in range(1,10+1):
-
+    for index2 in range(1,10+1):
+    
 # # 12
 # n = 7
 # for i in range(1, n + 1):
@@ -101,6 +101,7 @@ for kel in gap:
 #     for ye in range(2 * kl - 1):
 #         print("*", end="")
 #     print()
+
 
 
 
