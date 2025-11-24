@@ -67,6 +67,7 @@
 # # 11
 for index in range(1,10+1):
     for index2 in range(1,10+1):
+        print(index , end="*")
     
 # # 12
 # n = 7
@@ -101,6 +102,7 @@ for kel in gap:
 #     for ye in range(2 * kl - 1):
 #         print("*", end="")
 #     print()
+
 
 
 
